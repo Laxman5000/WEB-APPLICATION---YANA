@@ -1,0 +1,24 @@
+
+body.darkmode .card-body{
+    /* background-color: black; */
+    color: wheat;
+}
+
+body.darkmode .card-footer{
+    /* background-color: black; */
+    color: wheat;
+}
+.ac_btn:active, .ac_btn:focus{
+    background-color: #282a3c !important;
+    border-color: #282a3c !important;
+    color: #fff !important;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.col-md-6{
+    max-width: 50%;
+    min-width: 50%;
+}

@@ -1,0 +1,57 @@
+
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+.sidebar li{
+  list-style:none;
+}
+.top-bar{
+  display:flex;
+  justify-content:space-around;
+  width:100%;
+  align-items: center;
+}
+.toggler button{
+  color: #3eb6a2;
+}
+.profile-wrapper{
+  padding: 13px 15px;
+}
+.profile-wrapper h3{
+  margin: 0;
+}
+.profile-image{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.profile-name{
+  margin-left: 10px;
+}
+
+.login-area{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #bfc0c13d;
+    padding: 10px;
+    min-height: 123px;
+    flex-direction: column;
+}
+.login-area p{
+  margin: 0;
+}
+.login-area .login-btn{
+  background-color: #3eb6a2;
+}
+.login-area button{
+  width: 100%;
+}
+.login-area a{
+  text-decoration: none;
+  width: 100%;
+}

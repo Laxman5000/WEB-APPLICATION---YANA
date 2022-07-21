@@ -1,0 +1,79 @@
+.btn-dark_e{
+    background-color: #282a3c;
+    border-color: #282a3c;
+    color: #fff;
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+}
+.btn-outline-dark_e{
+    color: #343a40;
+    border-color: #343a40;
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+}
+.btn{
+    cursor: pointer !important;
+}
+.btn-wrap{
+    border-bottom: 1px solid #8a828263;
+}
+.contry_box{
+    padding: 5px;
+    border: 1px solid #a9a9a921;
+    min-height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.cb_img{
+    border-bottom: 1px solid #00800063;
+    margin-bottom: 7px;
+}
+.cb_details{
+    line-height: 1;
+}
+.darkmode table{
+    color: #fff;
+}
+.currency_table_wrap select{
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.darkmode .currency_table_wrap select{
+    background-color: #282a3c;
+    color: #fff;
+}
+.darkmode .tss-58la38-MUIDataTable-paper{
+    background-color: #282a3c;
+    color: aliceblue;
+}
+.darkmode .tss-1937jnc-MUIDataTableHead-main{
+    background-color: #282a3c;
+    color: aliceblue;
+}
+.darkmode td{
+    color: #fff;
+}
+.darkmode .tss-10rusft-MUIDataTableToolbar-icon{
+    color: #fff;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.darkmode .contry_box{
+    color: #fff;
+}
+.darkmode h3{
+    color: #fff;
+}

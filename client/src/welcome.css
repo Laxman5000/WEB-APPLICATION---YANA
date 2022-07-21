@@ -1,0 +1,211 @@
+
+  .welcome-hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    min-height: 38vh;
+    max-height: 40vh;
+  }
+  .welcome-hero-image{
+    background-position: bottom;
+    min-height: 40vh;
+    width: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .welcome-hero-text{
+    flex: 0.9;
+    padding: 18px;
+  }
+  .welcome-hero-text h1{
+    font-size: 2.7em;
+    font-weight: bold;
+    color: #4cedd2;
+    margin: 0;
+  }
+  .welcome-second-section{
+    margin-top: 20px;
+    display: flex;
+    max-width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .second-section-card{
+    min-width: 46%;
+    margin: 14px 0px;
+    max-width: 47%;
+    max-height: 50vh;
+    overflow: overlay;
+    height: max-content;
+
+  }
+
+  .second-section-card h4{
+    text-align: center;
+    margin: 0 0 10px 0;
+  }
+  .news-list-homepage{
+    display: flex;
+    padding: 1px;
+    margin: 10px 5px;
+    align-items: center;
+  }
+  .news-list-homepage-text{
+    flex: 1;
+    margin-left: 15px;
+  }
+
+  .news-list-homepage-text h5{
+    margin: 0;
+  }
+  .news-list-homepage-text-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .news-list-homepage-links{
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .news-list-homepage-links:hover{
+    color: #3eb6a2;
+  }
+  .book-list-homepage-wrapper{
+    padding: 1px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .book-list-homepage{
+    display: flex;
+    min-width: 46%;
+    max-width: 47%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 5px;
+    font-variant: small-caps;
+  }
+  .d-skeleton-book{
+    display: flex;
+    width: 60%;
+    place-content: center;
+    flex-flow: column;
+  }
+  .quote-list-homepage-text h5{
+    margin: 1px;
+  }
+  .quote-list-homepage{
+    padding: 1px;
+    margin: 10px 0px;
+  }
+  .rates-list-skeleton-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6px;
+  }
+  .rates-list-skeleton{
+    display: flex;
+    width: 30%;
+    place-content: center;
+    flex-flow: row;
+    margin: 5px 0px;
+  }
+  .rates-list-homepage{
+    display: flex;
+    width: 30%;
+    place-content: center;
+    flex-flow: row;
+    margin: 5px 0px;
+  }
+  .rates-list-homepage-text-text{
+    margin-left: 10px;
+    flex: 1;
+  }
+  .weather-list-homepage-temp{
+    display: flex;
+    flex-flow: column;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: lighter;
+  }
+  .current_weather_text{
+    font-size: 27px;
+    font-weight: bold;
+
+  }
+
+  @media(max-width: 360px) {
+    .second-section-card{
+      min-width: 98%;
+      margin: 14px auto;
+      max-height: max-content;
+      overflow: overlay;
+      height: max-content;
+    }
+  }
+
+
+  @media (min-width: 360px) and (max-width: 720px) {
+
+    .second-section-card{
+      min-width: 94%;
+      margin: 14px 0px;
+      max-height: max-content;
+      overflow: overlay;
+      height: max-content;
+    }
+
+    .book-list-homepage {
+      display: grid;
+      margin: 15px 5px;
+      place-content: center;
+      justify-content: space-between;
+  }
+  .book-list-homepage >.news-list-homepage-text {
+    flex: 1 1;
+    margin: 5px 0px;
+}
+ .book-list-homepage .lazy-load-image-background{
+ 
+    height: 135px !important;
+    width: 120px !important;
+}
+.book-list-homepage .lazy-load-image-background img{
+  height: inherit;
+    width: 120px;
+}
+.book-chip{
+  width: 100% !important;
+}
+.welcome-hero-image{
+  background-position: bottom;
+  height: 70%;
+  min-height: 26vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+.welcome-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap-reverse;
+  min-height: 49vh;
+}
+
+.welcome-hero-text{
+  flex: 0.9;
+  padding: 18px;
+  min-width: 90%;
+}
+
+
+}

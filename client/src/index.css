@@ -1,0 +1,50 @@
+@charset "UTF-8";   
+  
+body {
+  margin: 0;
+  font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size:1rem;
+}
+.row{
+  display:flex;
+}
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+a{
+  text-decoration: none;
+  color: rgb(54, 185, 153);
+  font-weight: 600;
+  font-size: medium;
+}
+a:hover{
+  color: rgb(41, 160, 130);
+}
+.brand-color{
+  color: #3eb6a2;
+}
+.darkmode {
+  background-color: rgb(0 0 0 / 90%);
+}
+.darkmode .todo-wrapper{
+  background-color: #65c8ee9c;
+}
+
+.darkmode .welcome-hero{
+  background: #48849c;
+}
+
+.darkmode a{
+  text-decoration: none;
+  color: rgb(146, 247, 222);
+  font-weight: 600;
+  font-size: medium;
+}
+.darkmode a:hover{
+  color: rgb(171, 249, 230);
+}

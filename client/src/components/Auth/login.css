@@ -1,0 +1,100 @@
+.auth-wrapper{
+    width: 100%;
+    height: 90vh;
+    overflow: overlay;
+}
+.auth-image, .auth-form{
+    max-width: 48%;
+    min-width: 48%;
+}
+.auth-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 5px;
+}
+.auth-image img{
+    width: 100%;
+}
+.auth-form{
+    min-height: 85vh;
+}
+.form-group{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.auth-form .btn-area{
+    flex-direction: row !important;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.btn-area button{
+   width: 170px;
+}
+.auth-register-option{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.register-btn-area{
+    margin-left: 15px;
+}
+.auth-form h1{
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .auth-wrapper{
+        height: 100vh;
+    }
+   .auth-form{
+        max-width: 90%;
+        min-width: 90%;
+    }
+    .auth-form form{
+        margin: 0;
+    }
+    .auth-image img{
+        width: 100%;
+    }
+    .auth-form{
+        min-height: 100vh;
+    }
+    .form-group{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .auth-form .btn-area{
+        flex-direction: column !important;
+        margin-top: 25px;
+        justify-content: space-between;
+    }
+    .btn-area button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .auth-register-option{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .register-btn-area{
+        margin-left: 15px;
+    }
+    .auth-form h1{
+        text-align: center;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+    .auth-form .btn-area a{
+        margin: 10px 0px;
+    }
+}

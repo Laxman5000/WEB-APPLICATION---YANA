@@ -1,0 +1,15 @@
+.exact h1{
+  font-size: 40px;
+}
+.detail p{
+  margin-bottom: 2px;
+}
+.weather-main-wrapper{
+  min-height: 70vh;
+  width: 60% !important;
+  margin: 40px auto !important;
+  /* margin-top: 20px; */
+}
+.darkmode .weather-main-wrapper{
+  color: aliceblue;
+}
